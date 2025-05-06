@@ -1,90 +1,123 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Öz Geçmiş</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammed YILMAZ</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
 </head>
 
-<body class="h-screen w-screen bg-gray-100">
-    <div class="grid grid-cols-5 h-full">
-        <div class="col-span-1 p-4">
-            <div class="flex flex-col gap-5">
-                <div class="text-center">
-                    Geçmişim
-                </div>
-                <div class="text-start border-2 border-cyan-400 p-4 rounded">
-                    2022 - ... EGA A.Ş.
-                    <br>
-                    E-İmza, Web, Proje / İş Analizi
-                    <br>
+<body class="bg-stone-100 text-stone-800">
 
-                </div>
-                <div class="text-start  border-2 border-cyan-400 p-4 rounded">
-                    2020 - 2024 SGK Danışmanlık
-                    <br>
-                    Web
-                    <br>
+  <!-- Giriş Kapısı / Header -->
+  <header class="text-center py-12 border-b border-stone-300">
+    <h1 class="text-4xl font-extrabold text-stone-900">MUHAMMED YILMAZ</h1>
+    <p class="text-lg text-stone-600 mt-2">Bilişim - Yazılım - ARGE - Proje Planlama</p>
+  </header>
 
-                </div>
-                <div class="text-start  border-2 border-cyan-400 p-4 rounded">
-                    2018 -  Safrantek
-                    <br>
-                    İş Yeri Eğitimi - 3 ay 
-                    <br>
-                    Web
+  <!-- Medrese Avlusu (Ana Gövde) -->
+  <main class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 p-8">
 
-                </div>
-                <div class="text-start  border-2 border-cyan-400 p-4 rounded">
-                    2014-2018 - Düzce Üniversitesi
-                    <br>
-                    Bilgisayar Mühendisliği 
-                    <br>
+    <!-- Sol Derslik -->
+    <section class="bg-white rounded-xl shadow-lg p-6 col-span-1">
+      <h2 class="text-xl font-semibold mb-4 text-stone-800">Eğitim</h2>
+      <ul class="list-disc pl-6 space-y-3">
+        <li>Bilgisayar Mühendisliği, Düzce Üniversitesi (2014 - 2018)</li>
+        <li>Celal Yardımcı Lisesi (2010 - 2014)</li>
+      </ul>
+    </section>
 
-                </div>
-                <div class="text-start border-2 border-cyan-400 p-4 rounded">
-                    2010-2014 - Celal Yardımcı Lisesi 
-                </div>
-            </div>
-        </div>
-        <div class="col-span-1">
-            <div class="grid grid-rows-3 h-full">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-        <div class="col-span-1">
-            <div class="grid grid-rows-3 h-full">
-                <div class="row-span-1"></div>
-                <div class="row-span-2">
-                    <div class="flex flex-col gap-4">
-                        <div class="flex font-bold hover:animate-pulse text-start border-2 border-red-400 rounded p-4 text-red-900">
-                            Muhammed YILMAZ
-                            my956024@gmail.com
-                        </div>
-                        <div class="flex justify-center">
-                            <button class="text-center p-2 hover:bg-gray-200 hover:border-gray-600 hover:shadow-xl hover:ml-1 hover:mt-1 border rounded border-gray-800">
-                                PDF İndir
-                            </button>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-        <div class="col-span-1">
-            <div class="grid grid-rows-3 h-full">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-        <div class="col-span-1 "></div>
-    </div>
+    <!-- Avlu Ortası (Hakkımda) -->
+
+
+    <section class="bg-white rounded-xl shadow-lg p-6 col-span-1">
+      <h2 class="text-xl font-semibold mb-4 text-stone-800">Tecrübeli olduklarım</h2>
+      <ul class="list-disc pl-6 space-y-3">
+        <li>HTML, CSS, JavaScript</li>
+        <li>C#, .Net, MVC</li>
+        <li>Docker, Docker-Compose, </li>
+      </ul>
+    </section>
+
+    <!-- Sağ Derslik -->
+    <section class="bg-white rounded-xl shadow-lg p-6 col-span-1 md:col-span-1">
+      <h2 class="text-xl font-semibold mb-4 text-stone-800">Projeler</h2>
+      <ul class="list-disc pl-6 space-y-3">
+        <li><strong>MedreseBlog</strong>: Blog platformu tasarımı (React + Tailwind)</li>
+        <li><strong>CVYap</strong>: CV oluşturma aracı (Vue + Firebase)</li>
+      </ul>
+    </section>
+
+    <!-- Alt Hücreler -->
+
+    <section class="bg-white rounded-xl shadow-lg p-6 col-span-1 md:col-span-2">
+
+      <h2 class="text-xl font-semibold mb-4 text-stone-800">Hakkımda</h2>
+      <div class="text-base leading-6 text-stone-700">
+        <p class="border rounded p-2">
+          Nice çabalar içinde en yüce olan, ahlâkla yoğrulmuş iştir.
+          İlmin kudretiyle kibirlenmemek, emeğin bereketiyle böbürlenmemek esastır.
+        </p>
+        <p class="border rounded p-2">
+          Bilişim yolunda yürüyen, sabrı azık, doğruluğu mihenk edinmeli; insanlık ölçüsü daima yoldaş olmalıdır.
+          Her satır kodu, bir hikmet gibi yazılmalı; her proje, bir emanet gibi taşınmalıdır.
+        </p>
+      </div>
+    </section>
+    <!-- İletişim -->
+    <section class="bg-white rounded-xl shadow-lg p-6 col-span-1">
+      <h2 class="text-xl font-semibold mb-4 text-stone-800">İletişim</h2>
+      <ul class="space-y-4">
+        <li class="flex items-center gap-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            class="text-stone-600">
+            <path id="vector"
+              d="M17 20.5H7C4 20.5 2 19 2 15.5V8.5C2 5 4 3.5 7 3.5H17C20 3.5 22 5 22 8.5V15.5C22 19 20 20.5 17 20.5Z"
+              stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path id="vector_2"
+              d="M18.7698 7.7688L13.2228 12.0551C12.5025 12.6116 11.4973 12.6116 10.777 12.0551L5.22998 7.7688"
+              stroke="#000000" stroke-width="1.5" stroke-linecap="round" />
+          </svg>
+          <a href="mailto:my956024@gmail.com" target="_blank"
+            class="text-stone-800"><strong>my956024@gmail.com</strong></a>
+        </li>
+        <li class="flex items-center gap-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M20.9992 5.95846C21.0087 6.565 20.9333 7.32649 20.8658 7.8807C20.8395 8.09686 20.8037 8.27676 20.7653 8.42453C21.6227 10.01 22 11.9174 22 14C22 16.4684 20.8127 18.501 18.9638 19.8871C17.1319 21.2605 14.6606 22 12 22C9.33939 22 6.86809 21.2605 5.0362 19.8871C3.18727 18.501 2 16.4684 2 14C2 11.9174 2.37732 10.01 3.23472 8.42452C3.19631 8.27676 3.16055 8.09685 3.13422 7.8807C3.06673 7.32649 2.99133 6.565 3.00081 5.95846C3.01149 5.27506 3.10082 4.5917 3.19988 3.91379C3.24569 3.60028 3.31843 3.30547 3.65883 3.11917C4.00655 2.92886 4.37274 2.99981 4.73398 3.1021C5.95247 3.44713 7.09487 3.93108 8.16803 4.51287C9.2995 4.17287 10.5783 4 12 4C13.4217 4 14.7005 4.17287 15.832 4.51287C16.9051 3.93108 18.0475 3.44713 19.266 3.1021C19.6273 2.99981 19.9935 2.92886 20.3412 3.11917C20.6816 3.30547 20.7543 3.60028 20.8001 3.91379C20.8992 4.5917 20.9885 5.27506 20.9992 5.95846ZM20 14C20 12.3128 19.6122 10 17.5 10C16.5478 10 15.6474 10.2502 14.7474 10.5004C13.8482 10.7502 12.9495 11 12 11C11.0505 11 10.1518 10.7502 9.25263 10.5004C8.35261 10.2502 7.45216 10 6.5 10C4.39379 10 4 12.3197 4 14C4 15.7636 4.82745 17.231 6.23588 18.2869C7.66135 19.3556 9.69005 20 12 20C14.3099 20 16.3386 19.3555 17.7641 18.2869C19.1726 17.231 20 15.7636 20 14ZM10 14.5C10 15.8807 9.32843 17 8.5 17C7.67157 17 7 15.8807 7 14.5C7 13.1193 7.67157 12 8.5 12C9.32843 12 10 13.1193 10 14.5ZM15.5 17C16.3284 17 17 15.8807 17 14.5C17 13.1193 16.3284 12 15.5 12C14.6716 12 14 13.1193 14 14.5C14 15.8807 14.6716 17 15.5 17Z"
+              fill="#000000" />
+          </svg>
+          <a href="https://github.com/muhyilmaz" target="_blank" class="text-stone-800"><strong>Github</strong></a>
+        </li>
+        <li class="flex items-center gap-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16" fill="none">
+            <path fill="#0A66C2"
+              d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728l-.001 3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z" />
+          </svg>
+          <a href="https://www.linkedin.com/in/muhammed-yılmaz-037278144/" target="_blank"
+            class="text-stone-800"><strong>LinkedIn</strong></a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Footer (Alt bilgi) -->
+  <footer class="text-center py-6 text-sm text-stone-500 bg-stone-50">
+    <p id="DateYearText"></p>
+  </footer>
+
+  <script>
+    let date = new Date().getFullYear();
+    document.getElementById("DateYearText").innerText = `© ${date} MUHAMMED YILMAZ `;
+  </script>
 </body>
 
 </html>
